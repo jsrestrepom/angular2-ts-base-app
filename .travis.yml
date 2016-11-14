@@ -10,6 +10,5 @@ before_install:
   - cd angular-quickstart
   - npm install
 
-script: 
-  - cd angular-quickstart
+script:
   - npm run tsc
