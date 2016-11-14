@@ -3,15 +3,10 @@ git:
 
 language: node_js
 node_js:
-  - "6"
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
+  - '0.10'
+  - '0.12'
+  - '4'
+  - '6'
 
 install: npm install
 
