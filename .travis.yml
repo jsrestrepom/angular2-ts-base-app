@@ -6,6 +6,8 @@ node_js:
   - '4'
   - '6'
 
-before_install: npm install
+before_install: 
+  - npm install
 
-script: npm run tsc
+script: 
+  - npm run tsc
