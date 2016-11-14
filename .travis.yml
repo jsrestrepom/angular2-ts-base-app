@@ -7,8 +7,7 @@ node_js:
   - '6'
 
 before_install: 
-  - cd angular-quickstart
-  - npm install
+  - cd angular-tour-of-heroes
 
 script:
   - npm run tsc
